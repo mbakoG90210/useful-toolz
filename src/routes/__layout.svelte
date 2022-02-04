@@ -4,4 +4,6 @@
 </script>
 
 <Navbar/>
-<slot/>
+<div class="mt-20">
+	<slot/>
+</div>
