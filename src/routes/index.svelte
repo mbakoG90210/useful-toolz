@@ -7,7 +7,7 @@
 	<ul class="mx-2 md:mx-0">
 		{#each tools as tool }
 			<li>
-				<a href="/{tool.name.toLowerCase().replaceAll(" ","-")}" class=" py-4 p-2 hover:bg-gray-200 block border rounded mb-2 text-xl font-semibold text-blue-700">{tool.name}
+				<a href="/{tool.name.toLowerCase().replace(/\s+/g,"-")}" class=" py-4 p-2 hover:bg-gray-200 block border rounded mb-2 text-xl font-semibold text-blue-700">{tool.name}
 					<p class="text-sm font-normal text-gray-700">{tool.description}</p>
 				</a>
 			</li>
