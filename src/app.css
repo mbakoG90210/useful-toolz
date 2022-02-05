@@ -9,6 +9,11 @@ html {
 }
 
 @layer base {
+
+	body {
+		@apply p-2 md:p-0;
+	}
+
 	input {
 		@apply block w-full border border-gray-300 my-1 p-1 rounded;
 	}
