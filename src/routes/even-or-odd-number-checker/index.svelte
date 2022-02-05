@@ -2,7 +2,7 @@
 	import tools from "/src/routes/_tools.json";
 	export async function load({ url }) {
 		let name = url.pathname.slice(1);
-		let tool = tools.filter(tool=> tool.name.replace(/\s+/g,"-")(" ","-").toLowerCase() ===name)[0];
+		let tool = tools.filter(tool=> tool.name.replace(/\s+/g,"-").toLowerCase() ===name)[0];
 		return {
 			props: {
 				tool

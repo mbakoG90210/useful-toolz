@@ -1,7 +1,15 @@
 <script context="module">
 	import tools from "./_tools.json";
+	import SEO from "svelte-seo";
+
+	let seo = {
+		title: ""
+	}
 </script>
 
+<SEO
+
+/>
 
 <main class="max-w-2xl mx-auto mt-20">
 	<ul class="mx-2 md:mx-0">
