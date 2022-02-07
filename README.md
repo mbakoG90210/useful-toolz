@@ -1,3 +1,3 @@
-# [Offline Toolz](offline-toolz.vercel.app)
+# [Useful Toolz](https://www.useful.vercel.app)
 
-Offline toolz is a web app which contains over 25+ useful tools which you can use every day
+This is a website or web app which contains useful tools which you might use everyday. Many Toolz is made to work offline giving you access to over 23+ useful tools.

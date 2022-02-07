@@ -9,7 +9,7 @@
 </div>
 
 <SEO
-title = "{tool.name} • Many Toolz"
+title = "{tool.name} • Useful Toolz"
 description="{tool.description}"
 keywords="{tool.keywords ? tool.keywords.toString() : ""}"
 canonical="https://wwww.useful-toolz.vercel.app/{tool.name.replace(/\s+/gm,"-").toLowerCase()}"

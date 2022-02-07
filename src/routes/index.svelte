@@ -6,7 +6,7 @@
 		title: "Useful Toolz • Home of utility tools which you might use everyday",
 		description: "Useful Toolz is a website which contains utility tools which you might just use everyday. The website can work both online and offline and you can install it as an app if you want",
 		keywords: "Offline tools, online tools, utility tools, useful tools, web development tools, app tools,  web app",
-		canonical: "https://www.many-toolz.vercel.app"	
+		canonical: "https://www.useful-toolz.vercel.app"	
 	}
 </script>
 
