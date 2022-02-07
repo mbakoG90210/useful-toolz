@@ -3,29 +3,34 @@
 		"name": "Addition Table Generator",
 		"description": "Generate addition table for both positive and negative numbers",
 		"created": "2021-05-11",
+		"keywords": ["addition table","addition table generator","addition generator"],
 		"updated": null
 	},
 	{
 		"name": "Browser Javascript Support Checker",
 		"description": "Check if your browser supports JavaScript or has it enabled",
 		"created": "2021-05-11",
+		"keywords": ["javascript checker","browser javascript","support javascript","check javascript"],
 		"updated": null
 	},
 	{
 		"name": "Division Table Generator",
 		"description": "Generate division table for both positive and negative numbers",
 		"created": "2021-05-11",
+		"keywords": ["division table generator","division table","division numbers generator"],
 		"updated": null
 	},
 	{
 		"name": "Even or Odd Number Checker",
 		"description": "Check if a given number is even or odd",
+		"keywords":["even or odd number","even or odd number checker", "number is even", "number is odd","check number even"],
 		"created": "2021-05-11",
 		"updated": null
 	},
 	{
 		"name": "Multiplication Table Generator",
 		"description": "Generate multiplication table for both positive and negative numbers",
+		"keywords":["multiplication table generator","generate multiplication table","multiplication table"],
 		"created": "2021-05-11",
 		"updated": null
 	},
