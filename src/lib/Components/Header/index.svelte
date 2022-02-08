@@ -1,4 +1,5 @@
 <script>
+    import List from "$lib/Components/ToolzList";
     import SEO from "svelte-seo";
     export let tool;
 </script>
@@ -30,3 +31,4 @@ twitter={{
 }}
 
 />
+<List/>

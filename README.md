@@ -1,3 +1,13 @@
-# [Useful Toolz](https://www.useful.vercel.app)
+# [Useful Toolz](https://useful-toolz.vercel.app)
 
-This is a website or web app which contains useful tools which you might use everyday. Many Toolz is made to work offline giving you access to over 23+ useful tools.
+This is a simple web app which contains useful tools which you might use everyday ranging from web developer tools to simple arithmetic tools.
+
+## Wanna Contribute?
+
+Contributing to this repository is very easy, just clone the repo and add a new tool and then submit a pull request with the new tool. _easy peesy_ :smile:
+
+### Steps
+
+1. Use git or `gh` to clone the repository
+2. 
+
