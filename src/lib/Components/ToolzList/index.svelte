@@ -1,5 +1,5 @@
 <script>
-	import { tools } from "/src/stores/store.js";
+	import { tools } from "$lib/Store";
 	import { fade } from "svelte/transition";
 	import { onMount } from "svelte";
 	let hidden = true;

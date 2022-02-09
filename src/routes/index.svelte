@@ -1,5 +1,5 @@
 <script context="module">
-	import tools from "./_tools.json";
+	import { tools } from "$lib/Store";
 	import SEO from "svelte-seo";
 
 	let seo = {
@@ -31,11 +31,13 @@ twitter={{
 	
 
 }}
-/>
+>
+<meta name="google-site-verification" content="0lwqnGTZjfAlmCFulgYllQOEbrveLJgz4TjUdbsiEa8" />
+</SEO>
 
 <main class="max-w-2xl mx-auto mt-20">
 	<ul class="mx-2 md:mx-0">
-		{#each tools as tool }
+		{#each $tools as tool (tool.id) }
 			<li>
 				<a href="/{tool.name.toLowerCase().replace(/\s+/g,"-")}" class=" py-4 p-2 hover:bg-gray-200 block border rounded mb-2 text-xl font-semibold text-blue-700">{tool.name}
 					<p class="text-sm font-normal text-gray-700">{tool.description}</p>
