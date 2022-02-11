@@ -21,7 +21,7 @@
 	let not_number_regex = /\D+/g;
 
 	const get_numbers = (text) => {
-		data.results = text.replace(not_number_regex, '');
+		data.results = text.replace(not_number_regex, ' ');
 	};
 </script>
 
