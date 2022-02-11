@@ -1,4 +1,4 @@
-<script type="text/javascript">
+ <script type="text/javascript">
 	import { createEventDispatcher } from 'svelte';
 	export let hidden = false;
 	let dispatch = createEventDispatcher();
@@ -44,8 +44,8 @@
 </script>
 
 <div class="fixed" id="backdrop" class:hidden on:click|self={hide}>
-	<div class="bg-white dark:bg-gray-700 p-4 border border-gray-300 max-w-sm m-auto mt-28">
-		<p class="font-semibold text-2xl text-center my-1 dark:text-white">Add new Type</p>
+	<div class="bg-white p-4 border border-gray-300 max-w-sm m-auto mt-28">
+		<p class="font-semibold text-2xl text-center my-1">Add new Type</p>
 		<div class="my-1">
 			<label for="name">Name</label>
 			<input id="name" type="text" bind:value={data.name} on:input={() => (error.name = '')} />
@@ -77,7 +77,7 @@
 				<input type="radio" name="regex" value="regex" id="regex" bind:group={data.type} />
 			</div>
 		</div>
-		<div class="border border-red-500 bg-red-100 p-2 my-1 rounded-md dark:text-black">
+		<div class="border border-red-500 bg-red-100 p-2 my-1 rounded-md">
 			Don't include '/ /' when entering your regular Expressions, it is already done for you
 		</div>
 		<button class="mx-3 !my-3" on:click={add}>Add</button><button

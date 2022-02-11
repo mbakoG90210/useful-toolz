@@ -49,12 +49,6 @@
 			regexFlags: 'g',
 			value: 0,
 			id: 4
-		},
-		{
-			name: 'Sentences',
-			data: '[A-Z].*?[\.!?]',
-			type: 'regex',
-			regexFlags: 'gm'
 		}
 	]; //This variable contains all the data which will enable the application to work
 	let text = ''; //The default value for the textarea element.
