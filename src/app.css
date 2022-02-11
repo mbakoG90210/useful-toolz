@@ -10,6 +10,14 @@ html {
 
 @layer base {
 
+	table thead {
+		@apply font-semibold;
+	}
+
+	table td {
+		@apply border p-2;
+	}
+
 	body::-webkit-scrollbar, .fancy-scrollbar::-webkit-scrollbar {
 		@apply bg-slate-100 w-[13px]
 	}
