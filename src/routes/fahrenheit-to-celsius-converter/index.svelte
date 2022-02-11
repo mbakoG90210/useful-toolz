@@ -21,7 +21,7 @@
 	let result;
 
 	const convert = ()=>{
-		result = (parseInt(value) - 32) * 5/9 
+		result = (parseFloat(value) - 32) * 5/9 
 	}
 
 	convert();

@@ -17,11 +17,11 @@
 
 	export let tool;
 
-	let value = 0;
+	let value = 37;
 	let result;
 
 	const convert = ()=>{
-		result = parseInt(value) * 1.8 + 32;
+		result = parseFloat(value) * 1.8 + 32;
 	}
 
 	convert();

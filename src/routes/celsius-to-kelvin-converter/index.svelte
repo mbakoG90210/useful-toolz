@@ -17,7 +17,7 @@
 
 	export let tool;
 
-	let value = 0;
+	let value = 37;
 	let result;
 
 	const convert = ()=>{
