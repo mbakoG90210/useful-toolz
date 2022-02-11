@@ -16,7 +16,7 @@
 
 	export let tool;
 	let number = 2;
-	let results = '';
+	let results = [];
 	let valid = true;
 	let error = '';
 	async function get_factors(number) {
@@ -50,7 +50,7 @@
 	const generate = () => {
 		get_factors(number).then((res) => {
 			results = res;
-		});
+		});	
 	};
 </script>
 
@@ -64,6 +64,6 @@
 	<button class="!my-3" on:click={generate}>Generate</button>
 	<div>
 		<p class="block font-semibold">Factors</p>
-		<span class="m-3 max-w-sm text-lg break-word">{results}</span>
+		<span class="m-3 max-w-sm text-lg break-word">{results.join(" ")}</span>
 	</div>
 </div>
