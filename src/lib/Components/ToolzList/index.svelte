@@ -18,9 +18,9 @@
 
 <div class="fixed right-0 m-3 bottom-0" id="tools-list">
 	{#if !hidden}
-	   <ul transition:fade class="overflow-y-scroll border rounded bg-white fancy-scrollbar max-h-[300px]">
+	   <ul transition:fade class="overflow-y-scroll border border-gray-400 shadow rounded bg-white fancy-scrollbar max-h-[300px]">
 	       {#each $tools as tool (tool.id)}
-	       <li><a class="py-2	 border-b-[0.1px] px-2 hover:bg-gray-200 active:bg-gray-300 text-base block" href="/{tool.name.replace(/\s+/gm,"-").toLowerCase()}">{tool.name}</a></li>
+	       <li><a class="py-2 border-b-[0.1px] border-gray-400 px-2 hover:bg-gray-200 active:bg-gray-300 text-base block" href="/{tool.name.replace(/\s+/gm,"-").toLowerCase()}">{tool.name}</a></li>
 	       {/each} 	
 	   </ul> 
 	{/if}
