@@ -1,13 +1,11 @@
-# [Useful-Toolz](https://useful-toolz.vercel.app/)
+# [Useful Toolz](https://useful-toolz.vercel.app)
 
-Contains a list of useful tools which you might just use everyday
+This site contains a list of useful tools which you might use everyday ranging from web developer tools to simple arithmetic tools.
 
 ## Contributing
 
-1. Clone the repo using `gh` or `git`
+Your contributions are welcome, in order to contribute, just follow these simple steps
 
-2. Add a new tool by creating a page inside the `src/routes/` folder
+1. Clone the repository
+Using `git` or `gh`, you should clone the repository onto your device
 
-3. Add the metadata about the tool to the `src/routes/_tools.json` file
-
-4. Push the changes to github

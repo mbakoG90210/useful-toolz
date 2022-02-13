@@ -1,0 +1,25 @@
+<script context="module">
+	import tools from "/src/routes/_tools.json";
+	export async function load({ url }) {
+		let name = url.pathname.slice(1);
+		let tool = tools.filter(tool=> tool.name.replace(/\s+/g,"-").toLowerCase() ===name)[0];
+		return {
+			props: {
+				tool
+			}
+		}
+	}
+</script>
+
+<script type="text/javascript">
+	import Header from "$lib/Components/Header";
+	export let tool;
+	
+</script>
+<Header {tool}/>
+<div>
+	<!-- 
+
+	Your code goes here
+	 -->
+</div>

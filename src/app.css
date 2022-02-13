@@ -33,6 +33,10 @@ html {
 		@apply w-auto inline;
 	}
 
+	input[readonly]{
+		@apply bg-gray-100;
+	}
+
 	label {
 		@apply mr-2;
 	}
